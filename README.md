@@ -1,9 +1,9 @@
-🎮 Tic Tac Toe (Python)
+-->Tic Tac Toe (Python)
 
 A simple terminal-based Tic Tac Toe game written in Python.
 The player plays against the computer in the command line.
 
-📌 How It Works
+# How It Works
 
 The game board has 9 blocks, numbered 1 to 9.
 
@@ -19,7 +19,7 @@ Lose
 
 Draw
 
-▶️ How to Run
+-->How to Run
 
 Make sure Python is installed on your system.
 
@@ -31,7 +31,7 @@ Run the game using:
 
 python tic_tac_toe.py
 
-🎯 Controls
+Controls
 
 Press 1 – 9 to place your move on the board.
 
@@ -43,7 +43,7 @@ Board layout reference:
 ---------
 7 | 8 | 9
 
-🧠 Game Rules
+#Game Rules
 
 You play as X
 
@@ -53,7 +53,7 @@ First to get three in a row (horizontal, vertical, or diagonal) wins.
 
 If all blocks are filled and no one wins, the game is a draw.
 
-🛠️ Features
+#Features
 
 Simple and beginner-friendly code
 
@@ -63,13 +63,13 @@ Clear terminal output
 
 Easy to understand logic using functions
 
-📂 Project Structure
+#Project Structure
 tic-tac-toe/
 │
 ├── tic_tac_toe.py
 └── README.md
 
-🚀 Future Improvements (Optional)
+#Future Improvements (Optional)
 
 Smarter AI instead of random moves
 
