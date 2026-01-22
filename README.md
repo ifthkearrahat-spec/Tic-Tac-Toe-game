@@ -42,7 +42,7 @@ Board layout reference:
 4 | 5 | 6
 ---------
 7 | 8 | 9
-
+---------
 #Game Rules
 
 You play as X
@@ -53,7 +53,7 @@ First to get three in a row (horizontal, vertical, or diagonal) wins.
 
 If all blocks are filled and no one wins, the game is a draw.
 
-#Features
+# Features
 
 Simple and beginner-friendly code
 
@@ -63,13 +63,13 @@ Clear terminal output
 
 Easy to understand logic using functions
 
-#Project Structure
+# Project Structure
 tic-tac-toe/
 │
 ├── tic_tac_toe.py
 └── README.md
 
-#Future Improvements (Optional)
+# Future Improvements (Optional)
 
 Smarter AI instead of random moves
 
@@ -79,7 +79,7 @@ Replay option
 
 GUI version
 
-📜 License
+# License
 
 This project is open-source and free to use for learning purposes.
 
