@@ -39,8 +39,9 @@ def game_play():
     while True:
         try:
             playr_input = input("Play your block (1-9) or 'q' to quit --> ").strip()
-            if playr_input not in available:
-                raise ValueError
+            if playr_input not in available :
+                if playr_input != 'q':
+                    raise ValueError
         except ValueError:
             print("Invalid value, try again.")
             continue
@@ -180,17 +181,21 @@ def bot_ai_call(comp_input):
 def toss_play():
     """Decide who starts the game using a coin toss."""
     
-    global toss
+    global toss, quit
     while True:
         try:
-            toss_local = input("Choose 'h' for head or 't' for tail --> ").lower().strip()
-            if toss_local not in ('h', 't'):
+            toss_local = input("Choose 'h' for head or 't' for tail and 'q' to quit --> ").lower().strip()
+            if toss_local not in ('h', 't', 'q'):
                 raise ValueError
         except ValueError:
             print("Invalid value, try again.")
             continue
         break
-
+    if toss_local == 'q':
+        quit = True
+        print("Match quit by player.")
+        return None
+    
     print("Block positions:")
     block_num = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
     for row in block_num:
